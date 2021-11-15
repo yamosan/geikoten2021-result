@@ -9,6 +9,8 @@ const firebaseConfig = {
   projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
 };
 
+console.log(firebaseConfig);
+
 initializeApp(firebaseConfig);
 
 const db = getFirestore();
